@@ -5,7 +5,7 @@ import com.tecsup.vibecheck.data.local.ReminderEntity
 import com.tecsup.vibecheck.domain.ReminderRepository
 import kotlinx.coroutines.flow.Flow
 
-class ReminderRepository(
+class ReminderRepositoryImpl(
     private val dao: ReminderDao
 ) : ReminderRepository {
 
