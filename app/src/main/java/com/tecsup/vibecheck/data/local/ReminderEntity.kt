@@ -10,6 +10,6 @@ data class ReminderEntity(
     val title: String,
     val description: String,
     val createdAt: Long,
-    val dueData: Long,
+    val dueDate: Long,
     val isCompleted: Boolean = false
 )
