@@ -42,13 +42,13 @@ android {
 
 dependencies {
     implementation(libs.androidx.material3)
-    val compose_version = "1.5.0" // O la que tengas por defecto
+    val compose_version = "1.5.0"
     implementation("androidx.activity:activity-compose:1.8.2")
     implementation(platform("androidx.compose:compose-bom:2023.10.01"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.material3:material3")
+    implementation("androidx.compose.material3:material3:1.1.2")
     val room_version = "2.6.1"
     implementation("androidx.room:room-runtime:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
@@ -63,6 +63,5 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-    // Agrega esta línea para que los iconos funcionen
     implementation("androidx.compose.material:material-icons-extended")
 }
